@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidad — JARVIS</title>
+<meta name="description" content="Política de privacidad de la aplicación JARVIS (uso personal, Gmail API).">
+<style>
+:root{--bg:#0b1220;--fg:#e6edf7;--mut:#9fb0c8;--acc:#4cc9f0;--card:#121c31;--bd:#22304d}
+@media (prefers-color-scheme:light){:root{--bg:#f5f8fc;--fg:#12203a;--mut:#51627d;--acc:#0a6fa8;--card:#fff;--bd:#d6e0ee}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:2.2rem;margin:0 0 .3em;letter-spacing:.02em}h2{font-size:1.2rem;margin:1.8em 0 .4em;color:var(--acc)}
+.sub{color:var(--mut);margin:0 0 2em}.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:20px 22px;margin:1.2em 0}
+a{color:var(--acc)}ul{padding-left:1.2em}li{margin:.4em 0}footer{margin-top:3em;color:var(--mut);font-size:.9rem}
+.btn{display:inline-block;padding:.6em 1.2em;border:1px solid var(--acc);border-radius:10px;text-decoration:none;font-weight:600}
+</style></head><body><main>
+<p><a href="index.html">← Inicio</a></p>
+<h1>Política de privacidad</h1>
+<p class="sub">Aplicación «JARVIS» · Última actualización: 14 de noviembre de 2026</p>
+
+<h2>1. Quién usa la aplicación</h2>
+<p>JARVIS es una aplicación de <strong>uso personal</strong>. La desarrolla y la usa únicamente su dueño, Roger Sotomayor, con su propia cuenta de Google. No hay otros usuarios y no se ofrece al público.</p>
+
+<h2>2. A qué datos accede y para qué</h2>
+<p>La aplicación solicita acceso a Gmail con dos permisos:</p>
+<ul>
+<li><strong>gmail.readonly</strong>: leer y buscar correos, resumirlos y descargar los adjuntos que el dueño pide.</li>
+<li><strong>gmail.send</strong>: enviar correos, y solo después de que el dueño revise el borrador y lo confirme con su PIN personal. La aplicación nunca envía correos por su cuenta.</li>
+</ul>
+<p>Usa estos datos únicamente para dar esas funciones al dueño. No los usa para publicidad, ni para crear perfiles, ni para ningún otro fin.</p>
+
+<h2>3. Dónde se procesan y con quién se comparten</h2>
+<p>Los datos se procesan en un servidor personal controlado por el dueño. <strong>No se venden, no se alquilan y no se comparten con terceros</strong>, con una sola excepción: para resumir o redactar, el texto necesario de un correo se envía al modelo de inteligencia artificial que usa el asistente (Anthropic, Claude), únicamente para generar la respuesta al dueño.</p>
+<p>Los correos y adjuntos descargados se guardan en el servidor personal. El token de acceso se guarda en un archivo con permisos restringidos, fuera del código y de cualquier repositorio.</p>
+
+<h2>4. Cumplimiento de la política de datos de usuario de Google</h2>
+<p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ajustarán a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos de Usuario de los Servicios de API de Google</a>, incluidos los requisitos de <strong>Uso Limitado</strong> (Limited Use). En particular:</p>
+<ul>
+<li>Los datos solo se usan para ofrecer y mejorar las funciones visibles para el dueño descritas arriba.</li>
+<li>No se transfieren a terceros, salvo lo necesario para prestar esas funciones (el modelo de IA indicado), cumplir la ley o por seguridad.</li>
+<li>No se usan para publicidad ni para entrenar modelos de IA generalizados.</li>
+<li>Ninguna persona lee los correos, salvo el propio dueño, o si hace falta por seguridad o por obligación legal.</li>
+</ul>
+
+<h2>5. Seguridad adicional</h2>
+<p>El contenido de los correos se trata siempre como datos y nunca como instrucciones para el asistente. Los correos y adjuntos no se reenvían a direcciones que el dueño no haya escrito, y los adjuntos descargados nunca se ejecutan.</p>
+
+<h2>6. Cómo revocar el acceso</h2>
+<p>El acceso se puede retirar en cualquier momento en <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, eligiendo la aplicación «JARVIS» y pulsando «Quitar acceso». Al revocarlo, la aplicación deja de poder leer o enviar correos. El dueño también puede borrar en cualquier momento los archivos descargados del servidor.</p>
+
+<h2>7. Cambios y contacto</h2>
+<p>Si esta política cambia, se actualizará esta página con la nueva fecha. Para cualquier consulta, contacto a través de mi <a href="https://github.com/Rogersoto12">perfil de GitHub</a>.</p>
+<footer><a href="index.html">Inicio</a></footer>
+</main></body></html>
